@@ -19,7 +19,7 @@ public class Main {
             System.out.println( "Поднимаю шторы в 8 часов!");
 
             System.out.println("Поднять шторы, если хозяева дома, сигнализация отключена");
-        } else  if ((time == 11) && (!onOff) && ((day.equalsIgnoreCase("Суботта") ||
+        } else  if (((time == 11) && (!onOff) && (day.equalsIgnoreCase("Суботта") ||
                 (day.equalsIgnoreCase("Воскресенье"))))) {
             System.out.println("Поднять шторы в 11 часов!");
 
